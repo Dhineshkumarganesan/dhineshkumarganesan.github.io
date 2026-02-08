@@ -56,7 +56,7 @@ I enjoy turning *complex distributed systems* into **operationally predictable, 
 
 <p align="left">
   
-![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+![Azure API Management](https://img.shields.io/badge/Azure_API_Management-0078D4?logo=microsoftazure&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?logo=gunicorn&logoColor=white)
