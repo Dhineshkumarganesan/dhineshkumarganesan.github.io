@@ -42,12 +42,6 @@ Principal Consultant | Cloud, Kubernetes, MLOps, Quantum Architecture
 
 ---
 
-## About Me
-Enterprise Architect with deep experience in AKS, Observability,
-MLOps platforms, and large-scale client delivery.
-
----
-
 ## Key Projects
 
 ### 🔹 FIFA Data Hub – Observability Platform
