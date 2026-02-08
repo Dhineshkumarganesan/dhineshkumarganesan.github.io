@@ -1,7 +1,7 @@
 # Dhinesh Kumar Ganeshan
 Principal Consultant | Cloud, Kubernetes, MLOps, Quantum Architecture
 
-📍 India | 💼 22+ years | 📧 your@email | 🔗 LinkedIn
+📍 India | 💼 22+ years | 📧 dhineshkumarganesan@gmail.com | 🔗 LinkedIn
 
 ---
 
