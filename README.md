@@ -42,29 +42,238 @@ Principal Consultant | Cloud, Kubernetes, MLOps, Quantum Architecture
 
 ## Key Projects
 
-### 🔹 Data Hub – Pod Lead - Platform & Observability Solutions
-• Collaborated with Streaming/Data Source teams to redesign workflows, reducing pipeline latency by 30% and aligning data flows with 100% of organizational SLAs.
- • Engineered Apache NiFi + API pipelines on AKS (Python-orchestrated), processing 10k+ events/day with 99.99% uptime and 40% faster batch processing vs. legacy system
- • Secured AKS with Private Link/Firewalls, eliminating 100% of unauthorized access incidents while cutting cross-network latency by 35% for hybrid data sources.
- • Deployed Helm/Terraform pipelines, slashing deployment time from 2 hours to 15 minutes (88% faster) and reducing rollbacks by 70%.
- • Built Prometheus/Thanos alerting, reducing incident response time by 50% and boosting system visibility (200+ metrics tracked).
- • Trained 10+ teams on CI/CD best practices, achieving 60% more deployments/week and 45% fewer production incidents.• Collaborated with Streaming/Data Source teams to redesign workflows, reducing pipeline latency by 30% and aligning data flows with 100% of organizational SLAs. • Engineered Apache NiFi + API pipelines on AKS (Python-orchestrated), processing 10k+ events/day with 99.99% uptime and 40% faster batch processing vs. legacy system • Secured AKS with Private Link/Firewalls, eliminating 100% of unauthorized access incidents while cutting cross-network latency by 35% for hybrid data sources. • Deployed Helm/Terraform pipelines, slashing deployment time from 2 hours to 15 minutes (88% faster) and reducing rollbacks by 70%. • Built Prometheus/Thanos alerting, reducing incident response time by 50% and boosting system visibility (200+ metrics tracked). • Trained 10+ teams on CI/CD best practices, achieving 60% more deployments/week and 45% fewer production incidents.
- 
-Service Operations, Azure DevOps Services and +20 skills
+🚀 Platform & Data Governance Engineering Portfolio
+🔹 Data Hub – Pod Lead | Platform & Observability Solutions
+📌 Overview
 
+Led platform engineering and observability architecture for enterprise-scale data hub workloads running on Azure Kubernetes Service (AKS). Focused on reliability, security, pipeline performance, and DevOps maturity across streaming and batch data platforms.
 
----
+🧠 Key Contributions
+⚡ Workflow & Data Pipeline Optimization
 
-### 🔹 Collibra Data Quality & Governance Platform Architect (Uniper)
-- • Led migration to Collibra Data Intelligence, integrating Azure Cloud services to unify 50+ data sources, reducing metadata discovery time by 40% and improving cross-team collaboration
- • Delivered network topologies, deployment blueprints, and data flow diagrams that accelerated stakeholder buy-in by 40%, optimized cloud spend (20% savings), and ensured 100% compliance with security policies.
- • Designed cloud-native architecture combining AKS with Collibra Data Quality, enabling 90% faster data processing using  Snowflake, while cutting costs by 25% via auto-scaling.
- • Synchronized metadata ingestion & technical lineage with Databricks metadata slashing data discovery efforts by 75% and accelerating analytics workflows
- • Synchronized metadata ingestion & technical lineage with DBT metadata processing DBT clean & compile/ run outputs on to Edge shared storage connection and mapped to Snowflake database
- • Deployed Storage accounts and Key-vaults and set up Edge Vaults to lay secured access from Collibra to various data sources 
- • Boosted Collibra Data Quality Migration from DEV to PROD using Python programs accessing DQ API and speeding up client migrations 3x.• Led migration to Collibra Data Intelligence, integrating Azure Cloud services to unify 50+ data sources, reducing metadata discovery time by 40% and improving cross-team collaboration • Delivered network topologies, deployment blueprints, and data flow diagrams that accelerated stakeholder buy-in by 40%, optimized cloud spend (20% savings), and ensured 100% compliance with security policies. • Designed cloud-native architecture combining AKS with Collibra Data Quality, enabling 90% faster data processing using  Snowflake, while cutting costs by 25% via auto-scaling. • Synchronized metadata ingestion & technical lineage with Databricks metadata slashing data discovery efforts by 75% and accelerating analytics workflows • Synchronized metadata ingestion & technical lineage with DBT metadata processing DBT clean & compile/ run outputs on to Edge shared storage connection and mapped to Snowflake database • Deployed Storage accounts and Key-vaults and set up Edge Vaults to lay secured access from Collibra to various data sources • Boosted Collibra Data Quality Migration from DEV to PROD using Python programs accessing DQ API and speeding up client migrations 3x.
+Collaborated with Streaming and Data Source teams to redesign ingestion workflows
 
-Azure DevOps Services, Collibra Platform and +12 skillss
+Reduced pipeline latency by 30%
+
+Achieved 100% SLA alignment across enterprise data flows
+
+🔄 Event Processing Platform Engineering
+
+Engineered Apache NiFi + API orchestration pipelines on AKS using Python orchestration
+
+Processed 10K+ events/day with 99.99% platform uptime
+
+Improved batch processing speed by 40% compared to legacy systems
+
+🔐 Platform Security & Network Engineering
+
+Implemented Azure Private Link + Firewall segmentation for AKS clusters
+
+Eliminated 100% unauthorized access incidents
+
+Reduced hybrid network latency by 35%
+
+⚙️ DevOps & Infrastructure Automation
+
+Built automated deployment pipelines using:
+
+Helm
+
+Terraform
+
+Azure DevOps
+
+📊 Impact:
+
+Deployment time reduced from 2 hours → 15 minutes
+
+Rollback incidents reduced by 70%
+
+📈 Observability & Reliability Engineering
+
+Designed monitoring and alerting using:
+
+Prometheus
+
+Thanos
+
+Custom alert pipelines
+
+📊 Impact:
+
+Incident response time reduced by 50%
+
+Platform visibility expanded to 200+ performance metrics
+
+👥 DevOps Enablement & Platform Adoption
+
+Conducted CI/CD and DevOps best practice training across 10+ engineering teams
+
+📊 Impact:
+
+Deployment frequency increased by 60%
+
+Production incidents reduced by 45%
+
+🛠️ Technologies Used
+Azure Kubernetes Service (AKS)
+Apache NiFi
+Python
+Terraform
+Helm
+Prometheus
+Thanos
+Azure Private Link
+Azure Firewall
+Azure DevOps
+
+🔹 Collibra Data Quality & Governance Platform Architect (Uniper)
+📌 Overview
+
+Architected and delivered enterprise data governance and quality platforms integrating Collibra, Snowflake, Databricks, and Azure cloud-native services, enabling secure, scalable, and compliant data management.
+
+🧠 Key Contributions
+☁️ Enterprise Data Governance Migration
+
+Led migration to Collibra Data Intelligence Platform
+
+Integrated 50+ enterprise data sources
+
+📊 Impact:
+
+Reduced metadata discovery time by 40%
+
+Improved cross-domain collaboration and governance visibility
+
+🧩 Cloud Architecture & Platform Design
+
+Designed cloud-native architecture combining:
+
+AKS
+
+Collibra Data Quality
+
+Snowflake
+
+📊 Impact:
+
+Achieved 90% faster data processing
+
+Reduced infrastructure cost by 25% via autoscaling strategies
+
+🧬 Metadata & Data Lineage Automation
+
+Implemented metadata synchronization between:
+
+Databricks
+
+Collibra
+
+DBT
+
+Snowflake
+
+📊 Impact:
+
+Reduced data discovery effort by 75%
+
+Accelerated enterprise analytics onboarding
+
+🔄 DBT Metadata Integration
+
+Automated DBT pipeline metadata ingestion
+
+Mapped DBT compile/run outputs to Snowflake via shared edge storage
+
+🔐 Secure Data Access Engineering
+
+Deployed:
+
+Azure Storage Accounts
+
+Azure Key Vault
+
+Edge Vault integrations
+
+Enabled secure connectivity between Collibra and enterprise data sources.
+
+🚀 Migration Automation & Platform Scaling
+
+Built Python automation programs leveraging Collibra DQ APIs
+
+Accelerated DEV → PROD migration lifecycle
+
+📊 Impact:
+
+Increased migration speed by 3x
+
+📊 Architecture & Stakeholder Enablement
+
+Delivered:
+
+Network topology designs
+
+Deployment blueprints
+
+End-to-end data flow diagrams
+
+📊 Impact:
+
+Improved stakeholder adoption by 40%
+
+Reduced cloud spend by 20%
+
+Achieved 100% compliance alignment
+
+🛠️ Technologies Used
+Collibra Data Intelligence
+Collibra Data Quality
+Azure Kubernetes Service (AKS)
+Snowflake
+Databricks
+DBT
+Python
+Azure Key Vault
+Azure Storage
+Azure DevOps
+
+🧭 Engineering Principles Applied
+
+Platform Reliability Engineering (PRE)
+
+DevSecOps
+
+Observability-Driven Development
+
+Data Governance by Design
+
+Cloud-Native Scalability
+
+Zero Trust Networking
+
+📊 Business Outcomes Delivered
+Area	Impact
+Pipeline Performance	+30% latency improvement
+Platform Reliability	99.99% uptime
+Deployment Speed	88% faster
+Incident Reduction	45% fewer incidents
+Data Discovery	75% faster
+Cloud Cost Optimization	20–25% savings
+👨‍💻 Skills Demonstrated
+
+Platform Architecture
+
+Kubernetes Engineering
+
+Data Governance Architecture
+
+Observability Engineering
+
+DevOps Automation
+
+Secure Cloud Networking
+
+Enterprise Data Platform Integration
 - 
 
 ---
