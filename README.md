@@ -1,5 +1,7 @@
-<h1 align="center">Hi 👋, I'm DHINESH KUMAR GANESHAN</h1>
-<h3 align="center">Seasoned Cloud & Data Architect with 20+ years of expertise specializing in scalable, secure cloud platforms for data governance, quality, streaming, and machine learning (ML) workloads</h3>
+💫 About Me:
+
+<h1 align="center">Hi there 👋, I'm Dhinesh Kumar Ganeshan</h1>
+<h3 align="center">Seasoned Cloud Platform Architect with 20+ years of expertise specializing in scalable, secure cloud platforms for data governance, quality, streaming, and machine learning (ML) workloads</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dhineshkumarganesan&label=Profile%20views&color=0e75b6&style=flat" alt="dhineshkumarganesan" /> </p>
 
