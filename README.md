@@ -74,16 +74,33 @@ iInterchange systems
 ---
 
 ## Certifications
-- PMP
+ 
 - Advanced Cloud Engineer
 - https://www.credly.com/badges/508ae002-6630-4c59-8926-06f4459c73aa
   
 - CKA
+- https://www.credly.com/badges/36432d71-7ec4-48f3-8a9b-113aec8b9bea
+  
 - KCNA
+- https://www.credly.com/badges/90ef03dc-71de-468a-ad80-73855574f6f4
+  
 - KCSA
 - https://www.credly.com/badges/a5c697b5-d0c2-4bc6-82cd-2f0c44b8fc7b
   
 - PCA
+- https://www.credly.com/badges/94167112-f688-4af0-8e07-4d8abe37d59f
+  
 - AWS Machine Learning Specialist
+- https://www.credly.com/badges/344c4a10-dfc4-43f7-af66-ef897b9fe364
+  
 - AWS Cloud Practitioner
-- Quantum Computing (QuLearnLabs)
+- https://www.credly.com/badges/14905b5b-63b1-4792-b7aa-773f2cc9860d
+
+- DataScience Associate
+- https://www.credly.com/badges/0f0fdb07-6347-4fac-adbd-feee85fdbbe2
+  
+- Quantum Computing
+- https://www.credly.com/badges/2efb0b16-ec31-4e8e-97aa-db5b75fa267f
+  
+- PMP
+- https://www.credly.com/badges/bdfcd401-b00c-416c-ac80-009a5972bd7e
