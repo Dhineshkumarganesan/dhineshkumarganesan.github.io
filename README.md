@@ -42,19 +42,30 @@ Principal Consultant | Cloud, Kubernetes, MLOps, Quantum Architecture
 
 ## Key Projects
 
-### 🔹 FIFA Data Hub – Observability Platform
-- Tech: AKS, Prometheus, Thanos, Splunk
-- Impact: 10% improvement in ticket resolution
-- My Role: Platform Architect, Alerting Strategy, Platform Stability
-
+### 🔹 Data Hub – Pod Lead - Platform & Observability Solutions
+• Collaborated with Streaming/Data Source teams to redesign workflows, reducing pipeline latency by 30% and aligning data flows with 100% of organizational SLAs.
+ • Engineered Apache NiFi + API pipelines on AKS (Python-orchestrated), processing 10k+ events/day with 99.99% uptime and 40% faster batch processing vs. legacy system
+ • Secured AKS with Private Link/Firewalls, eliminating 100% of unauthorized access incidents while cutting cross-network latency by 35% for hybrid data sources.
+ • Deployed Helm/Terraform pipelines, slashing deployment time from 2 hours to 15 minutes (88% faster) and reducing rollbacks by 70%.
+ • Built Prometheus/Thanos alerting, reducing incident response time by 50% and boosting system visibility (200+ metrics tracked).
+ • Trained 10+ teams on CI/CD best practices, achieving 60% more deployments/week and 45% fewer production incidents.• Collaborated with Streaming/Data Source teams to redesign workflows, reducing pipeline latency by 30% and aligning data flows with 100% of organizational SLAs. • Engineered Apache NiFi + API pipelines on AKS (Python-orchestrated), processing 10k+ events/day with 99.99% uptime and 40% faster batch processing vs. legacy system • Secured AKS with Private Link/Firewalls, eliminating 100% of unauthorized access incidents while cutting cross-network latency by 35% for hybrid data sources. • Deployed Helm/Terraform pipelines, slashing deployment time from 2 hours to 15 minutes (88% faster) and reducing rollbacks by 70%. • Built Prometheus/Thanos alerting, reducing incident response time by 50% and boosting system visibility (200+ metrics tracked). • Trained 10+ teams on CI/CD best practices, achieving 60% more deployments/week and 45% fewer production incidents.
+ 
+Service Operations, Azure DevOps Services and +20 skills
 
 
 ---
 
-### 🔹 Quantum Kubernetes PoC (IBM Quantum)
-- Agentic AI workflow with AKS + IBM Quantum
-- Tools: LangGraph, Azure DevOps, GitHub Actions
-- Repo: [link]
+### 🔹 Collibra Data Quality & Governance Platform Architect (Uniper)
+- • Led migration to Collibra Data Intelligence, integrating Azure Cloud services to unify 50+ data sources, reducing metadata discovery time by 40% and improving cross-team collaboration
+ • Delivered network topologies, deployment blueprints, and data flow diagrams that accelerated stakeholder buy-in by 40%, optimized cloud spend (20% savings), and ensured 100% compliance with security policies.
+ • Designed cloud-native architecture combining AKS with Collibra Data Quality, enabling 90% faster data processing using  Snowflake, while cutting costs by 25% via auto-scaling.
+ • Synchronized metadata ingestion & technical lineage with Databricks metadata slashing data discovery efforts by 75% and accelerating analytics workflows
+ • Synchronized metadata ingestion & technical lineage with DBT metadata processing DBT clean & compile/ run outputs on to Edge shared storage connection and mapped to Snowflake database
+ • Deployed Storage accounts and Key-vaults and set up Edge Vaults to lay secured access from Collibra to various data sources 
+ • Boosted Collibra Data Quality Migration from DEV to PROD using Python programs accessing DQ API and speeding up client migrations 3x.• Led migration to Collibra Data Intelligence, integrating Azure Cloud services to unify 50+ data sources, reducing metadata discovery time by 40% and improving cross-team collaboration • Delivered network topologies, deployment blueprints, and data flow diagrams that accelerated stakeholder buy-in by 40%, optimized cloud spend (20% savings), and ensured 100% compliance with security policies. • Designed cloud-native architecture combining AKS with Collibra Data Quality, enabling 90% faster data processing using  Snowflake, while cutting costs by 25% via auto-scaling. • Synchronized metadata ingestion & technical lineage with Databricks metadata slashing data discovery efforts by 75% and accelerating analytics workflows • Synchronized metadata ingestion & technical lineage with DBT metadata processing DBT clean & compile/ run outputs on to Edge shared storage connection and mapped to Snowflake database • Deployed Storage accounts and Key-vaults and set up Edge Vaults to lay secured access from Collibra to various data sources • Boosted Collibra Data Quality Migration from DEV to PROD using Python programs accessing DQ API and speeding up client migrations 3x.
+
+Azure DevOps Services, Collibra Platform and +12 skillss
+- 
 
 ---
 
