@@ -7,7 +7,7 @@
 I design and lead **enterprise-scale platform, data, and observability solutions** across regulated and high-throughput environments.  
 My work sits at the intersection of **Kubernetes, cloud-native DevOps, data governance, and reliability engineering**.
 
-I enjoy turning *complex distributed systems* into **operationally boring, secure, and measurable platforms**.</h3>
+I enjoy turning *complex distributed systems* into **operationally predictable, secure, and measurable platforms**.</h3>
 </p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dhineshkumarganesan&label=Profile%20views&color=0e75b6&style=flat" alt="dhineshkumarganesan" /> </p>
 
