@@ -48,9 +48,8 @@ I enjoy turning *complex distributed systems* into **operationally predictable, 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
 ![Heroku](https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white)
-![Render](https://img.shields.io/badge/Render-000000?logo=render&logoColor=white)
+
 </p>
 
 <h3 align="left">📦 Backend, APIs & Frameworks</h3>
@@ -60,7 +59,6 @@ I enjoy turning *complex distributed systems* into **operationally predictable, 
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
-![Jinja](https://img.shields.io/badge/Jinja-B41717?logo=jinja&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?logo=gunicorn&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=black)
@@ -72,12 +70,11 @@ I enjoy turning *complex distributed systems* into **operationally predictable, 
   
 ![Postgres](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?logo=neo4j&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?logo=amazondynamodb&logoColor=white)
+![Azure Cosmos DB](https://img.shields.io/badge/Azure_Cosmos_DB-0078D4?logo=microsoftazure&logoColor=white)
 </p>
 
 <h3 align="left">📊 Data, ML & AI</h3>
@@ -116,7 +113,7 @@ I enjoy turning *complex distributed systems* into **operationally predictable, 
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FCA121?logo=gitlab&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white)
+
 </p>
 
 <h3 align="left">🧠 Productivity & Misc</h3>
@@ -125,11 +122,8 @@ I enjoy turning *complex distributed systems* into **operationally predictable, 
   
 ![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=white)
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?logo=confluence&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?logo=raspberrypi&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?logo=twilio&logoColor=white)
+
 </p>
 
 <h3 align="left">⚛️ Quantum Computing & Algorithms</h3>
