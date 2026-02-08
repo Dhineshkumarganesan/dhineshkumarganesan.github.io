@@ -2,7 +2,12 @@
 
 <h1 align="left">💫 About Me: </h1>
 <h3 align="left">Hi there 👋, I'm Dhinesh Kumar Ganeshan</h3>
-<h3 align="left">Seasoned Cloud Platform Architect with 20+ years of expertise specializing in scalable, secure cloud platforms for data governance, quality, streaming, AI and machine learning (ML) workloads</h3>
+<h3 align="left">## 🔥 What I Do
+
+I design and lead **enterprise-scale platform, data, and observability solutions** across regulated and high-throughput environments.  
+My work sits at the intersection of **Kubernetes, cloud-native DevOps, data governance, and reliability engineering**.
+
+I enjoy turning *complex distributed systems* into **operationally boring, secure, and measurable platforms**.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dhineshkumarganesan&label=Profile%20views&color=0e75b6&style=flat" alt="dhineshkumarganesan" /> </p>
 
@@ -39,13 +44,6 @@ Principal Consultant | Cloud, Kubernetes, MLOps, Quantum Architecture
 📍 India | 💼 22+ years | 📧 dhineshkumarganesan@gmail.com | 🔗 LinkedIn
 
 ---
-## 🔥 What I Do
-
-I design and lead **enterprise-scale platform, data, and observability solutions** across regulated and high-throughput environments.  
-My work sits at the intersection of **Kubernetes, cloud-native DevOps, data governance, and reliability engineering**.
-
-I enjoy turning *complex distributed systems* into **operationally boring, secure, and measurable platforms**.
-
 
 ## 🏗️ Key Experience
 
