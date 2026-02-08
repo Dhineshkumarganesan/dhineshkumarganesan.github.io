@@ -10,7 +10,7 @@
 
 - 🔭 I’m currently working on **Quant finance model orchestrator and Collibra data governance & quality**
 
-- 🌱 I’m currently learning **Agentic AI Platform Governance Architecture**
+- 🌱 I’m currently designing **Agentic AI Platform Governance Architecture**
 
 - 💬 Ask me about **Kubernetes, Observability, Platform Orchestration**
 
@@ -39,243 +39,95 @@ Principal Consultant | Cloud, Kubernetes, MLOps, Quantum Architecture
 📍 India | 💼 22+ years | 📧 dhineshkumarganesan@gmail.com | 🔗 LinkedIn
 
 ---
-
-## Key Projects
-
-🚀 Platform & Data Governance Engineering Portfolio
-🔹 Data Hub – Pod Lead | Platform & Observability Solutions
-📌 Overview
-
-Led platform engineering and observability architecture for enterprise-scale data hub workloads running on Azure Kubernetes Service (AKS). Focused on reliability, security, pipeline performance, and DevOps maturity across streaming and batch data platforms.
-
-🧠 Key Contributions
-⚡ Workflow & Data Pipeline Optimization
-
-Collaborated with Streaming and Data Source teams to redesign ingestion workflows
-
-Reduced pipeline latency by 30%
-
-Achieved 100% SLA alignment across enterprise data flows
-
-🔄 Event Processing Platform Engineering
-
-Engineered Apache NiFi + API orchestration pipelines on AKS using Python orchestration
-
-Processed 10K+ events/day with 99.99% platform uptime
-
-Improved batch processing speed by 40% compared to legacy systems
-
-🔐 Platform Security & Network Engineering
-
-Implemented Azure Private Link + Firewall segmentation for AKS clusters
-
-Eliminated 100% unauthorized access incidents
-
-Reduced hybrid network latency by 35%
-
-⚙️ DevOps & Infrastructure Automation
-
-Built automated deployment pipelines using:
-
-Helm
-
-Terraform
-
-Azure DevOps
-
-📊 Impact:
-
-Deployment time reduced from 2 hours → 15 minutes
-
-Rollback incidents reduced by 70%
-
-📈 Observability & Reliability Engineering
-
-Designed monitoring and alerting using:
-
-Prometheus
-
-Thanos
-
-Custom alert pipelines
-
-📊 Impact:
-
-Incident response time reduced by 50%
-
-Platform visibility expanded to 200+ performance metrics
-
-👥 DevOps Enablement & Platform Adoption
-
-Conducted CI/CD and DevOps best practice training across 10+ engineering teams
-
-📊 Impact:
-
-Deployment frequency increased by 60%
-
-Production incidents reduced by 45%
-
-🛠️ Technologies Used
-Azure Kubernetes Service (AKS)
-Apache NiFi
-Python
-Terraform
-Helm
-Prometheus
-Thanos
-Azure Private Link
-Azure Firewall
-Azure DevOps
-
-🔹 Collibra Data Quality & Governance Platform Architect (Uniper)
-📌 Overview
-
-Architected and delivered enterprise data governance and quality platforms integrating Collibra, Snowflake, Databricks, and Azure cloud-native services, enabling secure, scalable, and compliant data management.
-
-🧠 Key Contributions
-☁️ Enterprise Data Governance Migration
-
-Led migration to Collibra Data Intelligence Platform
-
-Integrated 50+ enterprise data sources
-
-📊 Impact:
-
-Reduced metadata discovery time by 40%
-
-Improved cross-domain collaboration and governance visibility
-
-🧩 Cloud Architecture & Platform Design
-
-Designed cloud-native architecture combining:
-
-AKS
-
-Collibra Data Quality
-
-Snowflake
-
-📊 Impact:
-
-Achieved 90% faster data processing
-
-Reduced infrastructure cost by 25% via autoscaling strategies
-
-🧬 Metadata & Data Lineage Automation
-
-Implemented metadata synchronization between:
-
-Databricks
-
-Collibra
-
-DBT
-
-Snowflake
-
-📊 Impact:
-
-Reduced data discovery effort by 75%
-
-Accelerated enterprise analytics onboarding
-
-🔄 DBT Metadata Integration
-
-Automated DBT pipeline metadata ingestion
-
-Mapped DBT compile/run outputs to Snowflake via shared edge storage
-
-🔐 Secure Data Access Engineering
-
-Deployed:
-
-Azure Storage Accounts
-
-Azure Key Vault
-
-Edge Vault integrations
-
-Enabled secure connectivity between Collibra and enterprise data sources.
-
-🚀 Migration Automation & Platform Scaling
-
-Built Python automation programs leveraging Collibra DQ APIs
-
-Accelerated DEV → PROD migration lifecycle
-
-📊 Impact:
-
-Increased migration speed by 3x
-
-📊 Architecture & Stakeholder Enablement
-
-Delivered:
-
-Network topology designs
-
-Deployment blueprints
-
-End-to-end data flow diagrams
-
-📊 Impact:
-
-Improved stakeholder adoption by 40%
-
-Reduced cloud spend by 20%
-
-Achieved 100% compliance alignment
-
-🛠️ Technologies Used
-Collibra Data Intelligence
-Collibra Data Quality
-Azure Kubernetes Service (AKS)
-Snowflake
-Databricks
-DBT
-Python
-Azure Key Vault
-Azure Storage
-Azure DevOps
-
-🧭 Engineering Principles Applied
-
-Platform Reliability Engineering (PRE)
-
-DevSecOps
-
-Observability-Driven Development
-
-Data Governance by Design
-
-Cloud-Native Scalability
-
-Zero Trust Networking
-
-📊 Business Outcomes Delivered
-Area	Impact
-Pipeline Performance	+30% latency improvement
-Platform Reliability	99.99% uptime
-Deployment Speed	88% faster
-Incident Reduction	45% fewer incidents
-Data Discovery	75% faster
-Cloud Cost Optimization	20–25% savings
-👨‍💻 Skills Demonstrated
-
-Platform Architecture
-
-Kubernetes Engineering
-
-Data Governance Architecture
-
-Observability Engineering
-
-DevOps Automation
-
-Secure Cloud Networking
-
-Enterprise Data Platform Integration
-- 
-
+## 🔥 What I Do
+
+I design and lead **enterprise-scale platform, data, and observability solutions** across regulated and high-throughput environments.  
+My work sits at the intersection of **Kubernetes, cloud-native DevOps, data governance, and reliability engineering**.
+
+I enjoy turning *complex distributed systems* into **operationally boring, secure, and measurable platforms**.
+
+
+## 🏗️ Key Experience
+
+### 🔹 Data Hub – Pod Lead | Platform & Observability
+
+- Reduced **data pipeline latency by 30%**, achieving **100% SLA compliance**
+- Built **Apache NiFi + API pipelines on AKS**, processing **10K+ events/day** with **99.99% uptime**
+- Secured AKS using **Private Link & Firewalls**, eliminating **100% unauthorized access**
+- Automated deployments with **Helm & Terraform**
+  - ⏱️ Deployment time: **2 hrs → 15 mins**
+  - 🔁 Rollbacks reduced by **70%**
+- Implemented **Prometheus + Thanos observability**
+  - 🚨 Incident response time reduced by **50%**
+  - 📊 200+ platform metrics tracked
+- Trained **10+ teams** on CI/CD & DevOps best practices
+  - 📈 60% more deployments/week
+  - 📉 45% fewer production incidents
+
+---
+
+### 🔹 Collibra Data Quality & Governance Platform Architect (Uniper)
+
+- Led migration to **Collibra Data Intelligence**, integrating **50+ data sources**
+- Reduced metadata discovery effort by **40%**
+- Designed **AKS + Collibra DQ + Snowflake** cloud-native architecture
+  - ⚡ 90% faster data processing
+  - 💰 25% cost reduction via autoscaling
+- Automated **metadata & lineage ingestion** across:
+  - Databricks
+  - DBT
+  - Snowflake
+- Built Python automation using **Collibra DQ APIs**
+  - 🚀 DEV → PROD migrations accelerated **3x**
+- Delivered secure architectures using:
+  - Azure Key Vault
+  - Storage Accounts
+  - Edge Vaults
+- Achieved **100% security & compliance alignment**
+
+## 🛠️ Tech Stack
+
+**Cloud & Platform**
+Azure | AKS | Kubernetes | Terraform | Helm | Azure DevOps
+**Observability & Reliability**
+Prometheus | Thanos | Alerting | SRE Practices
+**Data & Governance**
+Collibra | Snowflake | Databricks | DBT | Apache NiFi
+**Security**
+Azure Private Link | Firewalls | Key Vault | Zero Trust
+
+
+## 📊 Impact Snapshot
+
+| Area | Result |
+|-----|--------|
+| Platform Uptime | 99.99% |
+| Deployment Speed | 88% faster |
+| Incident Reduction | 45% |
+| Data Discovery | 75% faster |
+| Cloud Cost Savings | 20–25% |
+
+---
+
+## 🧭 Engineering Philosophy
+
+- **Observability-first design**
+- **Security by default**
+- **Automation over heroics**
+- **Governance without friction**
+- **Platforms that scale people, not just systems**
+
+---
+
+## 🌱 Currently Exploring
+
+- Agentic AI & AI Runtime Governance  
+- MLOps & AI Infrastructure Platforms  
+- Quantum-ready cloud & Kubernetes architectures  
+
+---
+
+📫 **Let’s talk platforms, data, and systems that actually work in production.**
 ---
 
 ## Client Recognition
