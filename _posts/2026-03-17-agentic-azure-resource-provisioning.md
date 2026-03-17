@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Agentic Azure Resource Provisioning using GitHub Copilot Skills and Agents"
+date: 2026-03-17
+---
 
 Welcome to my blog!
 Agentic Azure Resource Provisioning with GitHub Copilot Agents and Skills
