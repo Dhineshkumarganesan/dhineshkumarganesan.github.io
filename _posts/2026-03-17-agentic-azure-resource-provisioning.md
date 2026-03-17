@@ -89,34 +89,35 @@ terraform destroy
 Under .vscode → edit mcp.json and add below 
 
 {
-"servers": {
-"terraform": {
-"command": "docker",
-"args": [
-"run",
-"-i",
-"--rm",
-"-e", "TFE_TOKEN=${input:tfe_token}",
-"-e", "TFE_ADDRESS=${input:tfe_address}",
-"hashicorp/terraform-mcp-server:0.3.3"
-]
+  "servers": {
+    "terraform": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e", "TFE_TOKEN=${input:tfe_token}",
+        "-e", "TFE_ADDRESS=${input:tfe_address}",
+        "hashicorp/terraform-mcp-server:0.3.3"
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "tfe_token",
+      "description": "HCP Terraform / Terraform Enterprise API Token (leave empty for public registry only)",
+      "password": true
+    },
+    {
+      "type": "promptString",
+      "id": "tfe_address",
+      "description": "HCP Terraform / Terraform Enterprise Address (default: https://app.terraform.io)",
+      "password": false
+    }
+  ]
 }
-},
-"inputs": [
-{
-"type": "promptString",
-"id": "tfe_token",
-"description": "HCP Terraform / Terraform Enterprise API Token (leave empty for public registry only)",
-"password": true
-},
-{
-"type": "promptString",
-"id": "tfe_address",
-"description": "HCP Terraform / Terraform Enterprise Address (default: https://app.terraform.io)",
-"password": false
-}
-]
-}
+
 
 
 From github-copilot-skills- terraform repo, get the agents and skill directory and copy within lab1 folder
