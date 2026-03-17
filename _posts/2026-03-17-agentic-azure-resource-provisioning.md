@@ -4,8 +4,6 @@ title: "Agentic Azure Resource Provisioning using GitHub Copilot Skills and Agen
 date: 2026-03-17
 ---
 
-**Agentic Azure Resource Provisioning with GitHub Copilot Agents and Skills**
-
 ## Introduction
 This post walks through how to provision Azure resources agentically using GitHub Copilot Agents and Skills with Terraform. Instead of manually running CLI commands, we leverage GitHub Copilot's agentic capabilities — where Agents orchestrate the workflow and Skills define the specific capabilities such as scaffolding, validation, planning, and applying Terraform configurations.
 By the end of this lab, you will have an Azure Storage Account provisioned end-to-end using natural language prompts to GitHub Copilot.
@@ -17,11 +15,12 @@ Docker installed and running
 GitHub Copilot subscription
 Terraform CLI installed
 
-
+**Step 1 — Create Project Structure**
 Create a new project named lab1 and create .github and .vscode directories.
 
 <img width="230" height="196" alt="image" src="https://github.com/user-attachments/assets/c6085514-3c73-40c3-a7f9-2155cc3a3590" />
 
+**Step 2 — Add Copilot Instructions**
 Add copilot-instructions.md under lab1 and add below instructions
 
 <img width="281" height="217" alt="image" src="https://github.com/user-attachments/assets/7d1fe1b9-33b5-4e12-8e9b-bc5cef4ba13f" />
@@ -90,9 +89,12 @@ terraform destroy
 - Authentication is via `az login` (Azure CLI)
 - No CI/CD pipeline — all commands run locally in terminal
 - No remote state backend — use local state for this lab
+
+**## Step 3 — Configure MCP Server for Terraform**
 ```
+
 ---
-## Step 3 — Configure MCP Server for Terraform
+
 
 Under `.vscode` → edit `mcp.json` and add the configuration below. This sets up the Terraform MCP server via Docker which allows GitHub Copilot Agents to invoke Terraform operations directly.
 
@@ -130,10 +132,12 @@ Under `.vscode` → edit `mcp.json` and add the configuration below. This sets u
 
 ---
 
-
-Under lab1 , you can see agents and skills folder as below. You can microsoft agentic ai - agents and skills documentation. You can look at the githib-copilot-agent-skills repo. 
+**Step 4 — Add Agents and Skills**
+From the github-copilot-skills-terraform repo, get the agents and skills directories and copy them into the lab1/.github folder.
 
 <img width="387" height="255" alt="image" src="https://github.com/user-attachments/assets/a3be529b-108a-4c7b-90f3-5f39d7ce1b5e" />
+
+**Step 5 — Ask Copilot to Create Azure Storage Account Module**
 
 Once it is done, you can go to copilot and ask to Create an Azure storage account module. In Terminal, type Copilot and it will ask you to login
 
@@ -150,6 +154,7 @@ you will see detailed response from copilot about the analysis
 still analysing
 
 <img width="1129" height="388" alt="image" src="https://github.com/user-attachments/assets/20d45ab3-8463-4b37-8596-0c9a89b69f6e" />
+
 
 it tries to create an implementation plan and try to create module directories
 <img width="878" height="386" alt="image" src="https://github.com/user-attachments/assets/a2dd912f-b786-4cc4-853f-943ae7119567" />
@@ -168,21 +173,24 @@ creates the modules with all terraform files
 creation of the azure storage module is completed with a Summary explaining what was done
 <img width="884" height="461" alt="image" src="https://github.com/user-attachments/assets/835d4176-5a8d-4c1e-b3d7-2fc013f740bb" />
 
+**Step 6 — Scaffold Result**
+The previous step performed a Terraform scaffold. Below shows the before and after.
 
-Below shows previous step has perform scaffold terraform
-
-Earlier
+Before scaffold — empty modules directory:
 
 <img width="487" height="251" alt="image" src="https://github.com/user-attachments/assets/e3ab9c65-db47-4e41-8f96-49b07bd3b766" />
 
-After scaffold, you see there are files created within modules directory
+After scaffold — Terraform files created within the modules directory:
 
 <img width="490" height="436" alt="image" src="https://github.com/user-attachments/assets/0fd24ec3-4333-4805-bb45-f0e7b6390ed7" />
+
+**Step 7 — Terraform Init and Validate**
 
 After this, you can perform terraform init and validate. You can ask copilot to perform this step. Here I prompted – could you check terraform validate succeeded or not and got response it is succeeded
 
 <img width="1135" height="494" alt="image" src="https://github.com/user-attachments/assets/2464cc3c-56a3-437b-a671-2494131c5277" />
 
+**Step 8 — Terraform Plan**
 Here I prompted do terraform plan
 
 <img width="1139" height="434" alt="image" src="https://github.com/user-attachments/assets/a22e6e45-5d47-4c7e-8aa4-54a77744f302" />
@@ -223,7 +231,7 @@ Asking for confirmation
 Saved locally 
 
 <img width="884" height="306" alt="image" src="https://github.com/user-attachments/assets/999fe086-b39e-4176-95ae-842f91b7840c" />
-
+**Step 9 — Terraform Apply**
 Next I prompt to proceed with apply ( terraform apply)
 
 <img width="1155" height="828" alt="image" src="https://github.com/user-attachments/assets/d5200b90-6cf4-4250-8a37-ad96268acabe" />
@@ -239,6 +247,7 @@ You can see below resource group rg-learning-lab created
 
 <img width="1658" height="605" alt="image" src="https://github.com/user-attachments/assets/be2ddc6b-03fd-430c-baf2-f9003a21f423" />
 
+**Step 10 — Destroy and Retry with New Name**
 
 I prompt to destroy all resource as below
 
@@ -274,7 +283,8 @@ Resource group exists
 Storage Account created within resource group
 <img width="1895" height="593" alt="image" src="https://github.com/user-attachments/assets/b099023b-a3df-4cb5-bfb1-59bf6f764c15" />
 
-Again destroyed the resources
+**Step 11 — Final Cleanup**
+Destroy all resources after completing the lab:
 
 <img width="865" height="340" alt="image" src="https://github.com/user-attachments/assets/bbba7c20-129a-4f9f-a214-a058738534ba" />
 
