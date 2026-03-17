@@ -181,20 +181,22 @@ Here I prompted do terraform plan
 
 <img width="1142" height="413" alt="image" src="https://github.com/user-attachments/assets/8549e823-d2e7-4da8-be8d-90259b2037aa" />
 
-Asking for confirmation
+terraform plan execution in progress
 <img width="1138" height="414" alt="image" src="https://github.com/user-attachments/assets/02cfccc3-9e2d-424b-9256-9444df1533b5" />
 
-terraform plan execution in progress
+Asking for confirmation
 <img width="1160" height="427" alt="image" src="https://github.com/user-attachments/assets/e0709bfd-4ba3-4d29-97d5-a70b0e0cc769" />
 
+On confirmation, terraform init and plan continues
 <img width="1179" height="441" alt="image" src="https://github.com/user-attachments/assets/c46bbafb-7352-4714-af29-68a754c8b94d" />
 
+It paused here as it needs an authentication
 <img width="1139" height="775" alt="image" src="https://github.com/user-attachments/assets/7d60755f-148e-4090-a249-ddc457319a2e" />
 
-Terraform plan failed due to authentication. Hence I prompted to use az login as below
+Terraform plan paused due to authentication. Hence I prompted to use az login as below
 
 <img width="1136" height="623" alt="image" src="https://github.com/user-attachments/assets/7ea48ccf-5283-48dd-9d5c-8d47a43d8d4b" />
-
+It then continued and finished the plan with summary indicating 2 resources will be created ( resource group and storage account)
 <img width="1155" height="758" alt="image" src="https://github.com/user-attachments/assets/0d995438-8aab-40ed-ad16-4f119f1af5bd" />
 
 Next I prompted to explain terraform plan and it resulted a Summary
@@ -204,20 +206,23 @@ Next I prompted to explain terraform plan and it resulted a Summary
 Next I prompt to show it as json and save it
 
 <img width="1183" height="871" alt="image" src="https://github.com/user-attachments/assets/eac90368-e856-4f90-9e48-94214d79ea54" />
-
+Asking for confirmation
 <img width="1162" height="476" alt="image" src="https://github.com/user-attachments/assets/adf4900e-4a0b-4f0e-9818-36191602a357" />
 
-<img width="1181" height="426" alt="image" src="https://github.com/user-attachments/assets/9b90d224-73cb-4b1b-a673-cf43d4a4e5f2" />
+Saved locally 
+
+<img width="884" height="306" alt="image" src="https://github.com/user-attachments/assets/999fe086-b39e-4176-95ae-842f91b7840c" />
 
 Next I prompt to proceed with apply ( terraform apply)
 
 <img width="1155" height="828" alt="image" src="https://github.com/user-attachments/assets/d5200b90-6cf4-4250-8a37-ad96268acabe" />
 
+Asking for confirmation
 <img width="1168" height="672" alt="image" src="https://github.com/user-attachments/assets/3e60963b-de6b-42b6-abc1-571d60a9b6c9" />
-
+While applying it identified an issue, apply failed as storage account name already has another account with similar name. Hence it asked  me to change it
 <img width="1155" height="447" alt="image" src="https://github.com/user-attachments/assets/dd94a7e8-0966-4824-a975-f2cceb73bde6" />
 
-apply failed, as storage account already has another account with similar name. Hence it asked  me to change it but it did created the resource group rg-learning-lab.
+but it still did created the resource group rg-learning-lab.
 
 You can see below resource group rg-learning-lab created
 
@@ -228,10 +233,11 @@ I prompt to destroy all resource as below
 
 <img width="1169" height="880" alt="image" src="https://github.com/user-attachments/assets/4a0e7657-32ce-4648-bc27-658107cf4c99" />
 
+resources destroyed
 <img width="1163" height="488" alt="image" src="https://github.com/user-attachments/assets/118ba0d0-50bc-484e-9b85-e356e26f7835" />
 
 
-It destroyed the resource group
+It destroyed the resource group on Azure
 
 <img width="1719" height="537" alt="image" src="https://github.com/user-attachments/assets/7904a846-fef4-4e27-8968-f701dde24496" />
 
@@ -245,21 +251,22 @@ I then enter prompt that account name changed . Now reapply
 
 <img width="1165" height="685" alt="image" src="https://github.com/user-attachments/assets/a8cb50a2-fb91-4ed0-81f4-e503d3a4ffb4" />
 
-<img width="1161" height="203" alt="image" src="https://github.com/user-attachments/assets/49bb6fec-697e-42f7-bdad-857493c79150" />
+Apply succeeded
+<img width="886" height="306" alt="image" src="https://github.com/user-attachments/assets/fec3c812-eb81-4fac-8aee-55e4c82fc6c2" />
 
-<img width="1183" height="507" alt="image" src="https://github.com/user-attachments/assets/55f27b65-ae96-4d51-bea4-8e9ceb37f0dd" />
 
-It applied and new resources created
+Resources on Azure created
 
+Resource group
 <img width="1654" height="539" alt="image" src="https://github.com/user-attachments/assets/cc1d4313-67e3-4283-9488-bab4173f2b58" />
-
+Storage Account
 <img width="1895" height="593" alt="image" src="https://github.com/user-attachments/assets/b099023b-a3df-4cb5-bfb1-59bf6f764c15" />
 
 Again destroyed the resources
 
-<img width="1168" height="265" alt="image" src="https://github.com/user-attachments/assets/ad6c81cd-5a90-4582-8eaa-eb096c23aa5d" />
+<img width="865" height="340" alt="image" src="https://github.com/user-attachments/assets/bbba7c20-129a-4f9f-a214-a058738534ba" />
 
-<img width="1193" height="479" alt="image" src="https://github.com/user-attachments/assets/5b3959d3-d473-41a3-89e2-09de8afedaf5" />
+Finally both resource group and storage accounts removed 
 
 <img width="1208" height="519" alt="image" src="https://github.com/user-attachments/assets/f376a9f1-e63a-4312-9532-8674ece3c9d8" />
 
