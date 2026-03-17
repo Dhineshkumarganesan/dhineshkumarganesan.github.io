@@ -133,7 +133,12 @@ Under `.vscode` → edit `mcp.json` and add the configuration below. This sets u
 ---
 
 **Step 4 — Add Agents and Skills**
-From the github-copilot-skills-terraform repo, get the agents and skills directories and copy them into the lab1/.github folder.
+
+
+Get the `agents` and `skills` directories from the 
+[source repository](https://github.com/dhineshkumarganesan/agenticai-azureprovisioning)
+and copy them into the `lab1/.github` folder.
+
 
 <img width="387" height="255" alt="image" src="https://github.com/user-attachments/assets/a3be529b-108a-4c7b-90f3-5f39d7ce1b5e" />
 
