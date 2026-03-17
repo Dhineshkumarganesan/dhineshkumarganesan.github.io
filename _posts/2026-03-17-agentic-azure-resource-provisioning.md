@@ -16,9 +16,8 @@ an agentic approach that eliminates manual CLI steps.
 - Azure CLI configured
 - Docker installed
 - GitHub Copilot subscription
-```
 
-`````markdown
+
 Create a new project named lab1 and create .github and .vscode directory
 
 <img width="230" height="196" alt="image" src="https://github.com/user-attachments/assets/c6085514-3c73-40c3-a7f9-2155cc3a3590" />
@@ -26,6 +25,9 @@ Create a new project named lab1 and create .github and .vscode directory
 Add copilot-instructions.md under lab1 and add below instructions
 
 <img width="281" height="217" alt="image" src="https://github.com/user-attachments/assets/7d1fe1b9-33b5-4e12-8e9b-bc5cef4ba13f" />
+```
+`````markdown
+
 
 # Copilot Instructions — Azure Storage Account Lab
 
@@ -82,6 +84,8 @@ terraform destroy
 - Authentication is via `az login` (Azure CLI)
 - No CI/CD pipeline — all commands run locally in terminal
 - No remote state backend — use local state for this lab
+
+```
 
 Under .vscode → edit mcp.json and add below 
 ```json
