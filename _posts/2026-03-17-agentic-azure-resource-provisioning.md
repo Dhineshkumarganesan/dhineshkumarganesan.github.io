@@ -282,7 +282,7 @@ The complete source code for this lab is available on GitHub:
 
 Feel free to clone, fork, and raise issues!
 
-[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-black?logo=github)](https://github.com/dhineshkumarganesan/your-repo-name)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-black?logo=github)](https://github.com/dhineshkumarganesan/agenticai-azureprovisioning)
 ```
 
 
