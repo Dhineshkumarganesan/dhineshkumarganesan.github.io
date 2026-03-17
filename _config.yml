@@ -1,4 +1,4 @@
 title: My Blog
-baseurl: "/Dhineshkumarganesan"   # important for project sites!
+baseurl: ""   # important for project sites!
 url: "https://dhineshkumarganesan.github.io"
 theme: minima
