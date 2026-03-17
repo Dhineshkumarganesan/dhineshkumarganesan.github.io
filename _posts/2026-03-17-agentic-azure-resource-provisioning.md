@@ -87,7 +87,7 @@ terraform destroy
 - No remote state backend — use local state for this lab
 
 Under .vscode → edit mcp.json and add below 
-
+```json
 {
   "servers": {
     "terraform": {
@@ -117,7 +117,7 @@ Under .vscode → edit mcp.json and add below
     }
   ]
 }
-
+```
 
 
 From github-copilot-skills- terraform repo, get the agents and skill directory and copy within lab1 folder
