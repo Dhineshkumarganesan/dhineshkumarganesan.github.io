@@ -4,8 +4,7 @@ title: "Agentic Azure Resource Provisioning using GitHub Copilot Skills and Agen
 date: 2026-03-17
 ---
 
-Welcome to my blog!
-Agentic Azure Resource Provisioning with GitHub Copilot Agents and Skills
+**Agentic Azure Resource Provisioning with GitHub Copilot Agents and Skills**
 
 Create a new project named lab1 and create .github and .vscode directory
 
