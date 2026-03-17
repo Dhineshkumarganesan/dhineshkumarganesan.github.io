@@ -129,31 +129,34 @@ now under lab1 , you can see agents and skills folder as below
 
 Once it is done, you can go to copilot and ask to Create an Azure storage account module
 
-
 <img width="1401" height="730" alt="image" src="https://github.com/user-attachments/assets/aad989ee-1dfc-4e2f-9e8a-fce694d85d78" />
+
+See the prompt - Create an Azure storage account module
 
 <img width="1139" height="653" alt="image" src="https://github.com/user-attachments/assets/b0d4bfa0-e1dc-4c99-b52b-650774f6b83a" />
 
+you will see detailed response from copilot about the analysis
+
 <img width="1117" height="628" alt="image" src="https://github.com/user-attachments/assets/c9161f28-cb34-422a-8670-946068bb443b" />
+
+still analysing
 
 <img width="1129" height="388" alt="image" src="https://github.com/user-attachments/assets/20d45ab3-8463-4b37-8596-0c9a89b69f6e" />
 
+it tries to create an implementation plan and try to create module directories
 <img width="1164" height="459" alt="image" src="https://github.com/user-attachments/assets/4759ef17-75a7-45da-9737-681373459534" />
 
-<img width="1144" height="502" alt="image" src="https://github.com/user-attachments/assets/8bfa611e-c398-46ce-bbe5-17cdb6870632" />
-
-<img width="1146" height="737" alt="image" src="https://github.com/user-attachments/assets/7c57b816-05ea-467b-bed4-ae3644084183" />
-
-<img width="1104" height="241" alt="image" src="https://github.com/user-attachments/assets/897490d7-a766-4ac4-b825-99592ce69a4e" />
-
+if it is blocked due to some break, you can simply prompt to Continue to Create an Azure storage account module
 <img width="1142" height="826" alt="image" src="https://github.com/user-attachments/assets/edfdd799-12b5-45a1-842c-0a2fd246c0df" />
 
+analysing
 <img width="1113" height="782" alt="image" src="https://github.com/user-attachments/assets/3a83c2db-4ce5-42a1-a6f5-64cd1ce8ae2f" />
 
+checks if any terraform files exist before in similar names
 <img width="1159" height="103" alt="image" src="https://github.com/user-attachments/assets/e69431d6-5430-4de5-84e5-fc1b29ddf161" />
-
+creates the modules with all terraform files
 <img width="1148" height="824" alt="image" src="https://github.com/user-attachments/assets/bfc6a44d-3b44-47d9-85c0-e96b63ed189b" />
-
+creation of the azure storage module is completed with a Summary explaining what was done
 <img width="1158" height="539" alt="image" src="https://github.com/user-attachments/assets/5f02e0c5-b96c-4152-806f-fed78db7cdd6" />
 
 Below shows previous step has perform scaffold terraform
@@ -166,20 +169,22 @@ After scaffold, you see there are files created within modules directory
 
 <img width="490" height="436" alt="image" src="https://github.com/user-attachments/assets/0fd24ec3-4333-4805-bb45-f0e7b6390ed7" />
 
-After this, you can perform terraform init and validate. You can copilot to perform this step.
+After this, you can perform terraform init and validate. You can ask copilot to perform this step. Here I prompted – could you check terraform validate succeeded or not and got response it is succeeded
 
 <img width="1135" height="494" alt="image" src="https://github.com/user-attachments/assets/2464cc3c-56a3-437b-a671-2494131c5277" />
 
-Here I prompted – could you check terraform validate succeeded or not and got response it is succeeded
+Here I prompted do terraform plan
 
 <img width="1139" height="434" alt="image" src="https://github.com/user-attachments/assets/a22e6e45-5d47-4c7e-8aa4-54a77744f302" />
 
-Here I prompted do terraform plan
+
 
 <img width="1142" height="413" alt="image" src="https://github.com/user-attachments/assets/8549e823-d2e7-4da8-be8d-90259b2037aa" />
 
+Asking for confirmation
 <img width="1138" height="414" alt="image" src="https://github.com/user-attachments/assets/02cfccc3-9e2d-424b-9256-9444df1533b5" />
 
+terraform plan execution in progress
 <img width="1160" height="427" alt="image" src="https://github.com/user-attachments/assets/e0709bfd-4ba3-4d29-97d5-a70b0e0cc769" />
 
 <img width="1179" height="441" alt="image" src="https://github.com/user-attachments/assets/c46bbafb-7352-4714-af29-68a754c8b94d" />
