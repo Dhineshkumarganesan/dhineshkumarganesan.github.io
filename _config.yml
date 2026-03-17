@@ -1,4 +1,5 @@
-title: My Blog
+title: Engineering Platforms for the Agentic AI Era
+description: Cloud, Data, Observability & Agentic AI insights from 20+ years of enterprise platform leadership
 baseurl: ""   # important for project sites!
 url: "https://dhineshkumarganesan.github.io"
 theme: minima
