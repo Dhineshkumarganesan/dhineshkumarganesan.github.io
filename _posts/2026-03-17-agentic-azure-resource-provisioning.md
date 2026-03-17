@@ -150,210 +150,103 @@ Earlier
 
 <img width="487" height="251" alt="image" src="https://github.com/user-attachments/assets/e3ab9c65-db47-4e41-8f96-49b07bd3b766" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 After scaffold, you see there are files created within modules directory
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="490" height="436" alt="image" src="https://github.com/user-attachments/assets/0fd24ec3-4333-4805-bb45-f0e7b6390ed7" />
 
 After this, you can perform terraform init and validate. You can copilot to perform this step.
 
-
-
-
-
-
-
-
+<img width="1135" height="494" alt="image" src="https://github.com/user-attachments/assets/2464cc3c-56a3-437b-a671-2494131c5277" />
 
 Here I prompted – could you check terraform validate succeeded or not and got response it is succeeded
 
-
+<img width="1139" height="434" alt="image" src="https://github.com/user-attachments/assets/a22e6e45-5d47-4c7e-8aa4-54a77744f302" />
 
 Here I prompted do terraform plan
 
+<img width="1142" height="413" alt="image" src="https://github.com/user-attachments/assets/8549e823-d2e7-4da8-be8d-90259b2037aa" />
 
+<img width="1138" height="414" alt="image" src="https://github.com/user-attachments/assets/02cfccc3-9e2d-424b-9256-9444df1533b5" />
 
+<img width="1160" height="427" alt="image" src="https://github.com/user-attachments/assets/e0709bfd-4ba3-4d29-97d5-a70b0e0cc769" />
 
+<img width="1179" height="441" alt="image" src="https://github.com/user-attachments/assets/c46bbafb-7352-4714-af29-68a754c8b94d" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="1139" height="775" alt="image" src="https://github.com/user-attachments/assets/7d60755f-148e-4090-a249-ddc457319a2e" />
 
 Terraform plan failed due to authentication. Hence I prompted to use az login as below
 
+<img width="1136" height="623" alt="image" src="https://github.com/user-attachments/assets/7ea48ccf-5283-48dd-9d5c-8d47a43d8d4b" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="1155" height="758" alt="image" src="https://github.com/user-attachments/assets/0d995438-8aab-40ed-ad16-4f119f1af5bd" />
 
 Next I prompted to explain terraform plan and it resulted a Summary
 
+<img width="1159" height="867" alt="image" src="https://github.com/user-attachments/assets/1532519f-374c-489b-b19d-cbad456b1401" />
 
 Next I prompt to show it as json and save it
 
+<img width="1183" height="871" alt="image" src="https://github.com/user-attachments/assets/eac90368-e856-4f90-9e48-94214d79ea54" />
 
+<img width="1162" height="476" alt="image" src="https://github.com/user-attachments/assets/adf4900e-4a0b-4f0e-9818-36191602a357" />
 
-
-
-
-
-
-
+<img width="1181" height="426" alt="image" src="https://github.com/user-attachments/assets/9b90d224-73cb-4b1b-a673-cf43d4a4e5f2" />
 
 Next I prompt to proceed with apply ( terraform apply)
 
+<img width="1155" height="828" alt="image" src="https://github.com/user-attachments/assets/d5200b90-6cf4-4250-8a37-ad96268acabe" />
 
+<img width="1168" height="672" alt="image" src="https://github.com/user-attachments/assets/3e60963b-de6b-42b6-abc1-571d60a9b6c9" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="1155" height="447" alt="image" src="https://github.com/user-attachments/assets/dd94a7e8-0966-4824-a975-f2cceb73bde6" />
 
 apply failed, as storage account already has another account with similar name. Hence it asked  me to change it but it did created the resource group rg-learning-lab.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 You can see below resource group rg-learning-lab created
 
-
-
-
+<img width="1658" height="605" alt="image" src="https://github.com/user-attachments/assets/be2ddc6b-03fd-430c-baf2-f9003a21f423" />
 
 
 I prompt to destroy all resource as below
 
+<img width="1169" height="880" alt="image" src="https://github.com/user-attachments/assets/4a0e7657-32ce-4648-bc27-658107cf4c99" />
 
-
+<img width="1163" height="488" alt="image" src="https://github.com/user-attachments/assets/118ba0d0-50bc-484e-9b85-e356e26f7835" />
 
 
 It destroyed the resource group
 
+<img width="1719" height="537" alt="image" src="https://github.com/user-attachments/assets/7904a846-fef4-4e27-8968-f701dde24496" />
 
 
+I changed the storage account name to stlabdevjohn001. If you ask Copilot, it will change the file name
 
-
-I changed the storage account name to stlabdevjohn001
-
+<img width="1121" height="531" alt="image" src="https://github.com/user-attachments/assets/a2125c3e-71c4-4a1e-a2e6-4044c4e41a31" />
 
 
 I then enter prompt that account name changed . Now reapply
 
+<img width="1165" height="685" alt="image" src="https://github.com/user-attachments/assets/a8cb50a2-fb91-4ed0-81f4-e503d3a4ffb4" />
 
+<img width="1161" height="203" alt="image" src="https://github.com/user-attachments/assets/49bb6fec-697e-42f7-bdad-857493c79150" />
 
-
-
+<img width="1183" height="507" alt="image" src="https://github.com/user-attachments/assets/55f27b65-ae96-4d51-bea4-8e9ceb37f0dd" />
 
 It applied and new resources created
 
+<img width="1654" height="539" alt="image" src="https://github.com/user-attachments/assets/cc1d4313-67e3-4283-9488-bab4173f2b58" />
 
-
-
-
-
-
+<img width="1895" height="593" alt="image" src="https://github.com/user-attachments/assets/b099023b-a3df-4cb5-bfb1-59bf6f764c15" />
 
 Again destroyed the resources
 
+<img width="1168" height="265" alt="image" src="https://github.com/user-attachments/assets/ad6c81cd-5a90-4582-8eaa-eb096c23aa5d" />
 
+<img width="1193" height="479" alt="image" src="https://github.com/user-attachments/assets/5b3959d3-d473-41a3-89e2-09de8afedaf5" />
 
+<img width="1208" height="519" alt="image" src="https://github.com/user-attachments/assets/f376a9f1-e63a-4312-9532-8674ece3c9d8" />
 
+<img width="1891" height="583" alt="image" src="https://github.com/user-attachments/assets/0f9b7246-f01d-4cdb-8e3a-a1ffb47f992e" />
 
 
 
