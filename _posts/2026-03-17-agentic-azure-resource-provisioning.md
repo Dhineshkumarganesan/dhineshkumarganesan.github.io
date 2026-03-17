@@ -324,13 +324,6 @@ Feel free to clone, fork, and raise issues!
 ```
 
 
-## Summary
-In this lab we demonstrated how GitHub Copilot Agents 
-and Skills can autonomously provision, validate, plan, 
-apply and destroy Azure resources using Terraform — 
-with minimal manual intervention.
-
-
 
 
 
