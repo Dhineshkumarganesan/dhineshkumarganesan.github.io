@@ -121,12 +121,7 @@ Under .vscode → edit mcp.json and add below
 ```
 
 
-
-From github-copilot-agent-skills repo, get the agents and skill directory and copy within lab1 folder. **Huge Thanks to Thomas Thorton**
-
-<img width="454" height="216" alt="image" src="https://github.com/user-attachments/assets/be8d99fe-6af3-4ce4-8697-09b5d4575d05" />
-
-now under lab1 , you can see agents and skills folder as below
+Under lab1 , you can see agents and skills folder as below
 
 <img width="387" height="255" alt="image" src="https://github.com/user-attachments/assets/a3be529b-108a-4c7b-90f3-5f39d7ce1b5e" />
 
