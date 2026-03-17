@@ -121,7 +121,7 @@ Under .vscode → edit mcp.json and add below
 ```
 
 
-Under lab1 , you can see agents and skills folder as below
+Under lab1 , you can see agents and skills folder as below. You can microsoft agentic ai - agents and skills documentation. You can look at the githib-copilot-agent-skills repo. 
 
 <img width="387" height="255" alt="image" src="https://github.com/user-attachments/assets/a3be529b-108a-4c7b-90f3-5f39d7ce1b5e" />
 
