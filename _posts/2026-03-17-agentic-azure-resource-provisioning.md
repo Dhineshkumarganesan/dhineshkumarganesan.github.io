@@ -283,7 +283,7 @@ Finally both resource group and storage accounts removed
 
 The complete source code for this lab is available on GitHub:
 
-🔗 [View on GitHub](https://github.com/dhineshkumarganesan/your-repo-name)
+🔗 [View on GitHub](https://github.com/dhineshkumarganesan/agenticai-azureprovisioning)
 
 Feel free to clone, fork, and raise issues!
 
