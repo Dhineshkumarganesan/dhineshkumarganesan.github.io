@@ -2,3 +2,6 @@ title: My Blog
 baseurl: ""   # important for project sites!
 url: "https://dhineshkumarganesan.github.io"
 theme: minima
+
+exclude:
+  - README.md
