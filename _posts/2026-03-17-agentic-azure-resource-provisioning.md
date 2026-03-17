@@ -18,6 +18,7 @@ an agentic approach that eliminates manual CLI steps.
 - GitHub Copilot subscription
 ```
 
+`````markdown
 Create a new project named lab1 and create .github and .vscode directory
 
 <img width="230" height="196" alt="image" src="https://github.com/user-attachments/assets/c6085514-3c73-40c3-a7f9-2155cc3a3590" />
@@ -61,24 +62,20 @@ Do not suggest or generate code for other Azure resources unless explicitly aske
 - Use `sensitive = true` for any key/connection string outputs
 
 ## Workflow Commands
-
+````bash
 # Initialize Terraform
 terraform init
-
 # Validate configuration
 terraform validate
-
 # Format code
 terraform fmt -recursive
-
 # Generate plan
 terraform plan -out=tfplan
-
 # Apply changes
 terraform apply tfplan
-
 # Destroy resources after lab
 terraform destroy
+\```
 
 ## Development Context
 - This is a local development environment
@@ -117,7 +114,9 @@ Under .vscode → edit mcp.json and add below
     }
   ]
 }
+\```
 ```
+
 
 
 From github-copilot-skills- terraform repo, get the agents and skill directory and copy within lab1 folder
