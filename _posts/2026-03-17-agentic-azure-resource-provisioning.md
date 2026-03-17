@@ -174,6 +174,7 @@ creation of the azure storage module is completed with a Summary explaining what
 <img width="884" height="461" alt="image" src="https://github.com/user-attachments/assets/835d4176-5a8d-4c1e-b3d7-2fc013f740bb" />
 
 **Step 6 — Scaffold Result**
+
 The previous step performed a Terraform scaffold. Below shows the before and after.
 
 Before scaffold — empty modules directory:
@@ -191,6 +192,7 @@ After this, you can perform terraform init and validate. You can ask copilot to 
 <img width="1135" height="494" alt="image" src="https://github.com/user-attachments/assets/2464cc3c-56a3-437b-a671-2494131c5277" />
 
 **Step 8 — Terraform Plan**
+
 Here I prompted do terraform plan
 
 <img width="1139" height="434" alt="image" src="https://github.com/user-attachments/assets/a22e6e45-5d47-4c7e-8aa4-54a77744f302" />
@@ -232,6 +234,7 @@ Saved locally
 
 <img width="884" height="306" alt="image" src="https://github.com/user-attachments/assets/999fe086-b39e-4176-95ae-842f91b7840c" />
 **Step 9 — Terraform Apply**
+
 Next I prompt to proceed with apply ( terraform apply)
 
 <img width="1155" height="828" alt="image" src="https://github.com/user-attachments/assets/d5200b90-6cf4-4250-8a37-ad96268acabe" />
@@ -284,6 +287,7 @@ Storage Account created within resource group
 <img width="1895" height="593" alt="image" src="https://github.com/user-attachments/assets/b099023b-a3df-4cb5-bfb1-59bf6f764c15" />
 
 **Step 11 — Final Cleanup**
+
 Destroy all resources after completing the lab:
 
 <img width="865" height="340" alt="image" src="https://github.com/user-attachments/assets/bbba7c20-129a-4f9f-a214-a058738534ba" />
@@ -293,6 +297,20 @@ Finally both resource group and storage accounts removed
 <img width="1208" height="519" alt="image" src="https://github.com/user-attachments/assets/f376a9f1-e63a-4312-9532-8674ece3c9d8" />
 
 <img width="1891" height="583" alt="image" src="https://github.com/user-attachments/assets/0f9b7246-f01d-4cdb-8e3a-a1ffb47f992e" />
+
+
+---
+
+## Summary
+
+In this lab we demonstrated how GitHub Copilot Agents and Skills can agentically provision, validate, plan, apply and destroy Azure resources using Terraform — driven entirely by natural language prompts.
+
+**Key takeaways:**
+- Agents orchestrate the end-to-end workflow
+- Skills define specific capabilities like scaffold, validate, plan and apply
+- Copilot handles authentication issues, naming conflicts and retries intelligently
+- The entire Azure Storage Account lifecycle was managed without manually running a single CLI command
+
 
 ## Source Code
 
