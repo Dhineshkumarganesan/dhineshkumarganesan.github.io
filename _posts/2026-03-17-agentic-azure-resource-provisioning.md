@@ -25,10 +25,9 @@ Create a new project named lab1 and create .github and .vscode directory
 Add copilot-instructions.md under lab1 and add below instructions
 
 <img width="281" height="217" alt="image" src="https://github.com/user-attachments/assets/7d1fe1b9-33b5-4e12-8e9b-bc5cef4ba13f" />
+
+You can copy below markdown instructions 
 ```
-`````markdown
-
-
 # Copilot Instructions — Azure Storage Account Lab
 
 ## Scope
@@ -123,7 +122,7 @@ Under .vscode → edit mcp.json and add below
 
 
 
-From github-copilot-skills- terraform repo, get the agents and skill directory and copy within lab1 folder
+From github-copilot-skills-terraform repo, get the agents and skill directory and copy within lab1 folder
 
 <img width="454" height="216" alt="image" src="https://github.com/user-attachments/assets/be8d99fe-6af3-4ce4-8697-09b5d4575d05" />
 
@@ -275,6 +274,17 @@ Finally both resource group and storage accounts removed
 <img width="1208" height="519" alt="image" src="https://github.com/user-attachments/assets/f376a9f1-e63a-4312-9532-8674ece3c9d8" />
 
 <img width="1891" height="583" alt="image" src="https://github.com/user-attachments/assets/0f9b7246-f01d-4cdb-8e3a-a1ffb47f992e" />
+
+## Source Code
+
+The complete source code for this lab is available on GitHub:
+
+🔗 [View on GitHub](https://github.com/dhineshkumarganesan/your-repo-name)
+
+Feel free to clone, fork, and raise issues!
+
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-black?logo=github)](https://github.com/dhineshkumarganesan/your-repo-name)
+```
 
 
 ## Summary
