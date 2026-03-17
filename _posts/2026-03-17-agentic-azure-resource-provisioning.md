@@ -7,18 +7,18 @@ date: 2026-03-17
 **Agentic Azure Resource Provisioning with GitHub Copilot Agents and Skills**
 
 ## Introduction
-This post walks through how to provision Azure resources 
-using GitHub Copilot Agents and Skills with Terraform — 
-an agentic approach that eliminates manual CLI steps.
+This post walks through how to provision Azure resources agentically using GitHub Copilot Agents and Skills with Terraform. Instead of manually running CLI commands, we leverage GitHub Copilot's agentic capabilities — where Agents orchestrate the workflow and Skills define the specific capabilities such as scaffolding, validation, planning, and applying Terraform configurations.
+By the end of this lab, you will have an Azure Storage Account provisioned end-to-end using natural language prompts to GitHub Copilot.
 
 ## Prerequisites
-- VS Code installed
-- Azure CLI configured
-- Docker installed
-- GitHub Copilot subscription
+VS Code installed with GitHub Copilot extension
+Azure CLI configured (az login)
+Docker installed and running
+GitHub Copilot subscription
+Terraform CLI installed
 
 
-Create a new project named lab1 and create .github and .vscode directory
+Create a new project named lab1 and create .github and .vscode directories.
 
 <img width="230" height="196" alt="image" src="https://github.com/user-attachments/assets/c6085514-3c73-40c3-a7f9-2155cc3a3590" />
 
@@ -27,7 +27,8 @@ Add copilot-instructions.md under lab1 and add below instructions
 <img width="281" height="217" alt="image" src="https://github.com/user-attachments/assets/7d1fe1b9-33b5-4e12-8e9b-bc5cef4ba13f" />
 
 You can copy below markdown instructions 
-```
+
+```markdown
 # Copilot Instructions — Azure Storage Account Lab
 
 ## Scope
@@ -63,30 +64,38 @@ Do not suggest or generate code for other Azure resources unless explicitly aske
 - Use `sensitive = true` for any key/connection string outputs
 
 ## Workflow Commands
-````bash
+
+```bash
 # Initialize Terraform
 terraform init
+
 # Validate configuration
 terraform validate
+
 # Format code
 terraform fmt -recursive
+
 # Generate plan
 terraform plan -out=tfplan
+
 # Apply changes
 terraform apply tfplan
+
 # Destroy resources after lab
 terraform destroy
-\```
+```
 
 ## Development Context
 - This is a local development environment
 - Authentication is via `az login` (Azure CLI)
 - No CI/CD pipeline — all commands run locally in terminal
 - No remote state backend — use local state for this lab
-
 ```
+---
+## Step 3 — Configure MCP Server for Terraform
 
-Under .vscode → edit mcp.json and add below 
+Under `.vscode` → edit `mcp.json` and add the configuration below. This sets up the Terraform MCP server via Docker which allows GitHub Copilot Agents to invoke Terraform operations directly.
+
 ```json
 {
   "servers": {
@@ -117,8 +126,9 @@ Under .vscode → edit mcp.json and add below
     }
   ]
 }
-\```
 ```
+
+---
 
 
 Under lab1 , you can see agents and skills folder as below. You can microsoft agentic ai - agents and skills documentation. You can look at the githib-copilot-agent-skills repo. 
