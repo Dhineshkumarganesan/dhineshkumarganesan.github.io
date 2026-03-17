@@ -130,7 +130,7 @@ now under lab1 , you can see agents and skills folder as below
 
 <img width="387" height="255" alt="image" src="https://github.com/user-attachments/assets/a3be529b-108a-4c7b-90f3-5f39d7ce1b5e" />
 
-Once it is done, you can go to copilot and ask to Create an Azure storage account module
+Once it is done, you can go to copilot and ask to Create an Azure storage account module. In Terminal, type Copilot and it will ask you to login
 
 <img width="1401" height="730" alt="image" src="https://github.com/user-attachments/assets/aad989ee-1dfc-4e2f-9e8a-fce694d85d78" />
 
@@ -147,7 +147,8 @@ still analysing
 <img width="1129" height="388" alt="image" src="https://github.com/user-attachments/assets/20d45ab3-8463-4b37-8596-0c9a89b69f6e" />
 
 it tries to create an implementation plan and try to create module directories
-<img width="1164" height="459" alt="image" src="https://github.com/user-attachments/assets/4759ef17-75a7-45da-9737-681373459534" />
+<img width="878" height="386" alt="image" src="https://github.com/user-attachments/assets/a2dd912f-b786-4cc4-853f-943ae7119567" />
+
 
 if it is blocked due to some break, you can simply prompt to Continue to Create an Azure storage account module
 <img width="1142" height="826" alt="image" src="https://github.com/user-attachments/assets/edfdd799-12b5-45a1-842c-0a2fd246c0df" />
@@ -160,7 +161,8 @@ checks if any terraform files exist before in similar names
 creates the modules with all terraform files
 <img width="1148" height="824" alt="image" src="https://github.com/user-attachments/assets/bfc6a44d-3b44-47d9-85c0-e96b63ed189b" />
 creation of the azure storage module is completed with a Summary explaining what was done
-<img width="1158" height="539" alt="image" src="https://github.com/user-attachments/assets/5f02e0c5-b96c-4152-806f-fed78db7cdd6" />
+<img width="884" height="461" alt="image" src="https://github.com/user-attachments/assets/835d4176-5a8d-4c1e-b3d7-2fc013f740bb" />
+
 
 Below shows previous step has perform scaffold terraform
 
@@ -191,7 +193,8 @@ Asking for confirmation
 <img width="1160" height="427" alt="image" src="https://github.com/user-attachments/assets/e0709bfd-4ba3-4d29-97d5-a70b0e0cc769" />
 
 On confirmation, terraform init and plan continues
-<img width="1179" height="441" alt="image" src="https://github.com/user-attachments/assets/c46bbafb-7352-4714-af29-68a754c8b94d" />
+<img width="878" height="337" alt="image" src="https://github.com/user-attachments/assets/fda8496a-2133-4611-a027-0f9d77830964" />
+
 
 It paused here as it needs an authentication
 <img width="1139" height="775" alt="image" src="https://github.com/user-attachments/assets/7d60755f-148e-4090-a249-ddc457319a2e" />
@@ -237,7 +240,8 @@ I prompt to destroy all resource as below
 <img width="1169" height="880" alt="image" src="https://github.com/user-attachments/assets/4a0e7657-32ce-4648-bc27-658107cf4c99" />
 
 resources destroyed
-<img width="1163" height="488" alt="image" src="https://github.com/user-attachments/assets/118ba0d0-50bc-484e-9b85-e356e26f7835" />
+<img width="877" height="399" alt="image" src="https://github.com/user-attachments/assets/1ad2098d-679d-4380-9123-f3a4b55bcbe8" />
+
 
 
 It destroyed the resource group on Azure
@@ -260,9 +264,9 @@ Apply succeeded
 
 Resources on Azure created
 
-Resource group
+Resource group exists
 <img width="1654" height="539" alt="image" src="https://github.com/user-attachments/assets/cc1d4313-67e3-4283-9488-bab4173f2b58" />
-Storage Account
+Storage Account created within resource group
 <img width="1895" height="593" alt="image" src="https://github.com/user-attachments/assets/b099023b-a3df-4cb5-bfb1-59bf6f764c15" />
 
 Again destroyed the resources
