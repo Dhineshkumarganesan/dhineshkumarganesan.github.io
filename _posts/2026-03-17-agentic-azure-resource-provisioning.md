@@ -6,6 +6,18 @@ date: 2026-03-17
 
 **Agentic Azure Resource Provisioning with GitHub Copilot Agents and Skills**
 
+## Introduction
+This post walks through how to provision Azure resources 
+using GitHub Copilot Agents and Skills with Terraform — 
+an agentic approach that eliminates manual CLI steps.
+
+## Prerequisites
+- VS Code installed
+- Azure CLI configured
+- Docker installed
+- GitHub Copilot subscription
+```
+
 Create a new project named lab1 and create .github and .vscode directory
 
 <img width="230" height="196" alt="image" src="https://github.com/user-attachments/assets/c6085514-3c73-40c3-a7f9-2155cc3a3590" />
@@ -249,7 +261,11 @@ Again destroyed the resources
 <img width="1891" height="583" alt="image" src="https://github.com/user-attachments/assets/0f9b7246-f01d-4cdb-8e3a-a1ffb47f992e" />
 
 
-
+## Summary
+In this lab we demonstrated how GitHub Copilot Agents 
+and Skills can autonomously provision, validate, plan, 
+apply and destroy Azure resources using Terraform — 
+with minimal manual intervention.
 
 
 
