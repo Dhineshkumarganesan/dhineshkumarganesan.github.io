@@ -1,15 +1,22 @@
-<script src="https://giscus.app/client.js"
-        data-repo="Dhineshkumarganesan/dhineshkumarganesan.github.io"
-        data-repo-id="R_kgDORLhuhA"
-        data-category="[ENTER CATEGORY NAME HERE]"
-        data-category-id="[ENTER CATEGORY ID HERE]"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %d, %Y" }}</p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <!-- Giscus Reactions and Comments -->
+  <div class="giscus-comments">
+    <hr/>
+    <h3>Reactions & Comments</h3>
+    <!-- PASTE YOUR GISCUS SCRIPT HERE -->
+  </div>
+
+</article>
