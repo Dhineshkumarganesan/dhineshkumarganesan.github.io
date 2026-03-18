@@ -40,7 +40,7 @@ Do not suggest or generate code for other Azure resources unless explicitly aske
 - Use `terraform.tfvars` for environment-specific values
 
 ## Azure Storage Account Rules
-- Default location: `uksouth` (adjust to your region)
+- Default location: `westeurope` (adjust to your region)
 - Default account_tier: `Standard`
 - Default replication: `LRS` (for lab/dev use)
 - Always set `https_traffic_only_enabled = true`
