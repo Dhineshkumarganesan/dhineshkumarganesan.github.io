@@ -6,3 +6,11 @@ theme: minima
 
 exclude:
   - README.md
+
+comments:
+  provider: giscus
+  giscus:
+    repo: dhineshkumarganesan/dhineshkumarganesan.github.io
+    repo_id: # get from giscus.app
+    category: Announcements
+    category_id: # get from giscus.app
